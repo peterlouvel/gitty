@@ -22,14 +22,14 @@ function preload ()
 {
     //this.load.setBaseURL('http://labs.phaser.io');
 
-    this.load.image('sky' , 'assets/space.jpg');
+    this.load.image('sky' , 'assets/background.jpg');
     this.load.image('Ball', 'assets/pokemon-ball-32.png');
     this.load.image('red' , 'assets/red.png');
 }
 
 function create ()
 {
-    this.add.image(400, 300, 'sky');
+    // this.add.image(400, 300, 'sky');
 
     var particles = this.add.particles('red');
 

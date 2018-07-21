@@ -2,6 +2,7 @@ var config = {
     type: Phaser.AUTO,
     width: 800,
     height: 600,
+    transparent: true,
     physics: {
         default: 'arcade',
         arcade: {
@@ -30,7 +31,7 @@ function preload ()
 function create ()
 {
     // this.add.image(400, 300, 'sky');
-
+    
     var particles = this.add.particles('red');
 
     var emitter = particles.createEmitter({

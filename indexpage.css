@@ -14,9 +14,15 @@ body {
   text-align: center;
 }
 
+.h1{
+ background:chocolate;
+ color: white;
+ mix-blend-mode: multiply;
+ font-size: 60px;
+}
+
 .button {
-  background: brown;
-  /* padding: 25px 40px; */
+  background: blueviolet;
   font-size: 60px;
   border: 2px solid #c68153;
   /* transition-duration: 700ms; */

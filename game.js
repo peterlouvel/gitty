@@ -5,7 +5,7 @@ var config = {
     physics: {
         default: 'arcade',
         arcade: {
-            gravity: { y: 200 }
+            gravity: { y: 500 }
         }
     },
     scene: {
@@ -18,11 +18,11 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
-    this.load.setBaseURL('http://labs.phaser.io');
+    //this.load.setBaseURL('http://labs.phaser.io');
 
-    this.load.image('sky', 'assets/skies/space3.png');
-    this.load.image('logo', 'assets/sprites/phaser3-logo.png');
-    this.load.image('red', 'assets/particles/red.png');
+    this.load.image('sky' , 'assets/space.jpg');
+    this.load.image('Ball', 'assets/ball.png');
+    this.load.image('red' , 'assets/red.png');
 }
 
 function create ()
@@ -37,12 +37,12 @@ function create ()
         blendMode: 'ADD'
     });
 
-    var logo = this.physics.add.image(400, 100, 'logo');
+    var ball = this.physics.add.image(17, 17, 'Ball');
 
-    logo.setVelocity(100, 200);
-    logo.setBounce(1, 1);
-    logo.setCollideWorldBounds(true);
+    ball.setVelocity(100, 200);
+    ball.setBounce(1, 1);
+    ball.setCollideWorldBounds(true);
 
-    emitter.startFollow(logo);
+    emitter.startFollow(ball);
 }
 

@@ -5,12 +5,14 @@ var config = {
     physics: {
         default: 'arcade',
         arcade: {
-            gravity: { y: 500 }
+            gravity: { y: 500 },
+            debug: false
         }
     },
     scene: {
-        preload: preload,
-        create: create
+        preload: preload
+        ,create: create 
+        // ,update: update
     }
 };
 
@@ -21,7 +23,7 @@ function preload ()
     //this.load.setBaseURL('http://labs.phaser.io');
 
     this.load.image('sky' , 'assets/space.jpg');
-    this.load.image('Ball', 'assets/ball.png');
+    this.load.image('Ball', 'assets/pokemon-ball-32.png');
     this.load.image('red' , 'assets/red.png');
 }
 
@@ -37,7 +39,7 @@ function create ()
         blendMode: 'ADD'
     });
 
-    var ball = this.physics.add.image(17, 17, 'Ball');
+    var ball = this.physics.add.image(32, 32, 'Ball');
 
     ball.setVelocity(100, 200);
     ball.setBounce(1, 1);

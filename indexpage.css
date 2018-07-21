@@ -1,0 +1,32 @@
+html {
+  background: no-repeat center center fixed;
+  background-image: url("assets/sunset.jpg");
+  background-size: cover;
+  text-align: center;
+  
+}
+
+body {
+  
+  background: no-repeat center center fixed; 
+  background-image: url("assets/sunset.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.button {
+  background: brown;
+  /* padding: 25px 40px; */
+  font-size: 60px;
+  border: 2px solid #c68153;
+  /* transition-duration: 700ms; */
+  width: 50vw; height: 10vw;
+  color: white;
+  mix-blend-mode: multiply;
+}
+
+.button:hover {
+  background-color: #2b519785;
+  color: whitesmoke;
+}
+

@@ -18,17 +18,18 @@ body {
  background:chocolate;
  color: white;
  mix-blend-mode: multiply;
- font-size: 60px;
+ font-size: 8vw;
 }
 
 .button {
   background: blueviolet;
-  font-size: 60px;
+  font-size: 3vw ;
   border: 2px solid #c68153;
-  /* transition-duration: 700ms; */
-  width: 50vw; height: 10vw;
+  transition-duration: 1700ms;
+  width: 40vw; height: 7vw;
   color: white;
   mix-blend-mode: multiply;
+  margin: 3vw;
 }
 
 .button:hover {

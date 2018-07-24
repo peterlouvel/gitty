@@ -1,6 +1,6 @@
 html {
   background: no-repeat center center fixed;
-  background-image: url("assets/sunset.jpg");
+  background-image: url("../assets/sunset.jpg");
   background-size: cover;
   text-align: center;
 }

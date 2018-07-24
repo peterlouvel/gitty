@@ -3,7 +3,7 @@
 
 html {
   background: no-repeat center center fixed;
-  background-image: url("assets/Light-Textured-Backgrounds-019.jpg");
+  background-image: url("../assets/Light-Textured-Backgrounds-019.jpg");
   /* background-size: cover; */
   text-align: center;
   /* background-size: auto; */
@@ -11,7 +11,7 @@ html {
 
 body {
   background: no-repeat center center fixed; 
-  background-image: url("assets/Light-Textured-Backgrounds-019.jpg");
+  background-image: url("../assets/Light-Textured-Backgrounds-019.jpg");
   /* size: 100% 100%; */
 }
 

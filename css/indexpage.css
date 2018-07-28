@@ -1,42 +1,30 @@
-
-
-
-html {
+* {
   background: no-repeat center center fixed;
   background-image: url("../assets/Light-Textured-Backgrounds-019.jpg");
-  /* background-size: cover; */
   text-align: center;
-  /* background-size: auto; */
-}
+  justify-items: center;
 
-body {
-  background: no-repeat center center fixed; 
-  background-image: url("../assets/Light-Textured-Backgrounds-019.jpg");
-  /* size: 100% 100%; */
 }
 
 .grid-container{
   display: grid;
-  justify-items: center;
 }
 
 .h1{
-
  background:chocolate;
  width: 80vw; height: 15vw;
- /* width: 80vw; height: 10vw; */
+ font-size: 12vw;
  color: white;
  mix-blend-mode: multiply;
- font-size: 12vw;
- margin: 3%;
+ margin: 2.5vw;
 }
 
 .button {
   background: blueviolet;
+  width: 50vw; height: 7vw;
   font-size: 3vw ;
   border: 2px solid #c68153;
   transition-duration: 1700ms;
-  width: 50vw; height: 7vw;
   color: white;
   mix-blend-mode: multiply;
   margin: 2.5vw;
